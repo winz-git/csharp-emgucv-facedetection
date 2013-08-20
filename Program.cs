@@ -16,7 +16,8 @@ namespace SystemTrayCapture
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Library.Forms.mainForm());
+            //Application.Run(new Library.Forms.mainForm());
+            Application.Run(new Library.Forms.loginForm());
         }
     }
 }
